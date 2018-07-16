@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--TopPageFragment-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_wholeIdolSelectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <FrameLayout
+            android:id="@+id/top_FrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/top_backGround"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="TODO"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_anniversary"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/top_allChargeIdolLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <!--担当アイドル表示(左)-->
+                <ImageView
+                    android:id="@+id/top_chargeIdolLeft"
+                    android:layout_width="112dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/top_tubasa"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <!--担当アイドル表示(センター)-->
+                <ImageView
+                    android:id="@+id/top_chargeIdolCenter"
+                    android:layout_width="112dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/top_mirai"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <!--担当アイドル表示(右)-->
+                <ImageView
+                    android:id="@+id/top_chargeIdolRight"
+                    android:layout_width="112dp"
+                    android:layout_height="160dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/top_sizuka"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_swapButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/top_changeLeftToCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:text="@string/string_changeLeftToCenter"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/top_changeLeftToRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:text="@string/string_changeLeftToRight"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/top_changeCenterToRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:text="@string/string_changeCenterToRight"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_settingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/string_showIdolOfNumberText" />
+
+        <Button
+            android:id="@+id/top_showIdolOfNumberSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            style="@android:style/Widget.Holo.Light.Spinner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/string_backGroundText" />
+
+        <Button
+            android:id="@+id/top_backGroundSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            style="@android:style/Widget.Holo.Light.Spinner" />
+
+    </LinearLayout>
+
+</LinearLayout>

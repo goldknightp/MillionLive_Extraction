@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="stringArray_idolList">
+        <item>春日 未来</item>
+        <item>木下 ひなた</item>
+        <item>ジュリア</item>
+        <item>高山 紗代子</item>
+        <item>田中 琴葉</item>
+        <item>天空橋 朋花</item>
+        <item>箱崎 星梨花</item>
+        <item>松田 亜利沙</item>
+        <item>最上 静香</item>
+        <item>望月 杏奈</item>
+        <item>矢吹 可奈</item>
+        <item>エミリー スチュアート</item>
+        <item>大神 環</item>
+        <item>北上 麗花</item>
+        <item>高坂 海美</item>
+        <item>佐竹 美奈子</item>
+        <item>島原 エレナ</item>
+        <item>永吉 昴</item>
+        <item>野々原 茜</item>
+        <item>馬場 このみ</item>
+        <item>福田 のり子</item>
+        <item>舞浜 歩</item>
+        <item>真壁 瑞希</item>
+        <item>百瀬 莉緒</item>
+        <item>横山 奈緒</item>
+        <item>伊吹 翼</item>
+        <item>北沢 志保</item>
+        <item>篠宮 可憐</item>
+        <item>周防 桃子</item>
+        <item>徳川 まつり</item>
+        <item>所 恵美</item>
+        <item>豊川 風花</item>
+        <item>中谷 育</item>
+        <item>七尾 百合子</item>
+        <item>二階堂 千鶴</item>
+        <item>宮尾 美也</item>
+        <item>ロコ</item>
+    </string-array>
+
+    <string-array name="stringArray_idolListValue">
+        <item>top_mirai.png</item>
+        <item>top_hinata.png</item>
+        <item>top_julia.png</item>
+        <item>top_sayoko.png</item>
+        <item>top_kotoha.png</item>
+        <item>top_tomoka.png</item>
+        <item>top_serika.png</item>
+        <item>top_arisa.png</item>
+        <item>top_sizuka.png</item>
+        <item>top_anna.png</item>
+        <item>top_kana.png</item>
+        <item>top_emily.png</item>
+        <item>top_tamaki.png</item>
+        <item>top_reika.png</item>
+        <item>top_umi.png</item>
+        <item>top_minako.png</item>
+        <item>top_erena.png</item>
+        <item>top_subaru.png</item>
+        <item>top_akane.png</item>
+        <item>top_konomi.png</item>
+        <item>top_noriko.png</item>
+        <item>top_ayumu.png</item>
+        <item>top_mizuki.png</item>
+        <item>top_rio.png</item>
+        <item>top_nao.png</item>
+        <item>top_tubasa.png</item>
+        <item>top_siho.png</item>
+        <item>top_karen.png</item>
+        <item>top_momoko.png</item>
+        <item>top_maturi.png</item>
+        <item>top_megumi.png</item>
+        <item>top_huuka.png</item>
+        <item>top_iku.png</item>
+        <item>top_yuriko.png</item>
+        <item>top_tizuru.png</item>
+        <item>top_miya.png</item>
+        <item>top_loco.png</item>
+    </string-array>
+
+
+    <string-array name="stringArray_backGroundList">
+        <item>劇場</item>
+        <item>劇場 Anniversary.Ver</item>
+        <item>劇場 海沿い</item>
+        <item>劇場 神殿</item>
+    </string-array>
+
+    <string-array name="stringArray_backGroundListValue">
+        <item>bg_normal.jpg</item>
+        <item>bg_anniversary.jpg</item>
+        <item>bg_ship.jpg</item>
+        <item>bg_shrine.jpg</item>
+    </string-array>
+
+    <string-array name="stringArray_showIdolOfNumberList">
+        <item>1人</item>
+        <item>2人</item>
+        <item>3人</item>
+    </string-array>
+
+    <string-array name="stringArray_showIdolOfNumberValue">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+    </string-array>
+
+
+</resources>

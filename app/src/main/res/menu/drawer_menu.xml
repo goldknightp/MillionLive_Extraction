@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NavigationViewに表示するメニュー-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--メインメニュー-->
+    <group
+        android:id="@+id/menu_drawerMainMenu"
+        android:checkableBehavior="single">
+
+        <!--"ボイス"項目-->
+        <item
+            android:id="@+id/menu_drawerVoice"
+            android:icon="@drawable/ic_keyboard_voice_black_24dp"
+            android:title="@string/string_drawerVoice" />
+
+        <!--"イメージ"項目-->
+        <item
+            android:id="@+id/menu_drawerImage"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="@string/string_drawerImage" />
+
+        <!--"セットリスト"項目-->
+        <item
+            android:id="@+id/menu_drawerSetList"
+            android:icon="@drawable/ic_playlist_play_black_24dp"
+            android:title="@string/string_drawerSetList" />
+
+        <!--"コール集"項目-->
+        <item
+            android:id="@+id/menu_drawerCallCollection"
+            android:icon="@drawable/ic_featured_play_list_black_24dp"
+            android:title="@string/string_drawerCallCollection" />
+
+    </group>
+
+    <!--サブメニュー-->
+    <group
+        android:id="@+id/menu_drawerOtherMenu"
+        android:checkableBehavior="single">
+
+        <!--"お知らせ"項目-->
+        <item
+            android:id="@+id/menu_drawerNotice"
+            android:title="@string/string_drawerNotice" />
+
+        <!--"このアプリについて"項目-->
+        <item
+            android:id="@+id/menu_drawerSummary"
+            android:title="@string/string_drawerSummary" />
+
+        <!--"設定"項目-->
+        <item
+            android:id="@+id/menu_drawerSetting"
+            android:title="@string/string_drawerSetting" />
+
+    </group>
+
+</menu>

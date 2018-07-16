@@ -1,0 +1,52 @@
+<resources>
+
+    <!--システム名-->
+    <string name="app_name">MillionLive_Extraction</string>
+
+    <!--ToolBar文字列関連-->
+    <string name="string_toolbarMenu">設定</string>
+
+    <!--DrawerNavigation関連-->
+    <string name="string_drawerVoice">ボイス</string>
+    <string name="string_drawerImage">イメージ</string>
+    <string name="string_drawerSetList">セットリスト</string>
+    <string name="string_drawerCallCollection">コール集</string>
+    <string name="string_drawerNotice">お知らせ</string>
+    <string name="string_drawerSummary">このアプリについて</string>
+    <string name="string_drawerSetting">設定</string>
+
+    <!--ActionBarDrawerToggleの引数-->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!--TopFragment関連-->
+    <string name="string_changeLeftToCenter">L⇔C</string>
+    <string name="string_changeLeftToRight">L⇔R</string>
+    <string name="string_changeCenterToRight">C⇔R</string>
+    <string name="string_showIdolOfNumberText">アイドルの表示人数</string>
+    <string name="string_backGroundText">背景の設定</string>
+
+    <!--PreferenceFragmentのKEY関連-->
+    <string name="string_preferenceListLeftKey">SELECT_LEFT_IDOL</string>
+    <string name="string_preferenceListCenterKey">SELECT_CENTER_IDOL</string>
+    <string name="string_preferenceListRightKey">SELECT_RIGHT_IDOL</string>
+    <string name="string_showIdolOfNumber">SHOW_IDLE_OF_NUMBER</string>
+    <string name="string_preferenceBGListKey">SELECT_BACK_GROUND</string>
+
+    <string name="string_listDefaultLeftValue">top_tubasa.png</string>
+    <string name="string_listDefaultCenterValue">top_mirai.png</string>
+    <string name="string_listDefaultRightValue">top_sizuka.png</string>
+
+    <string name="string_BG_normal">bg_normal.jpg</string>
+    <string name="string_BG_anniversary">bg_anniversary.jpg</string>
+    <string name="string_BG_ship">bg_ship.jpg</string>
+    <string name="string_BG_shrine">bg_shrine.jpg</string>
+
+    <string name="string_showIdolOne">ONE</string>
+    <string name="string_showIdolTwo">TWO</string>
+    <string name="string_showIdolThree">THREE</string>
+    <string name="string_showIdolDefault">THREE</string>
+
+    <string name="string_listDefaultBGValue">bg_normal.jpg</string>
+
+</resources>

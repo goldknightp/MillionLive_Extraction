@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listItem_liveName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="1stLIVE HAPPY☆PERFORM@NCE!!"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/listItem_liveYear"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="2014年"/>
+
+        <TextView
+            android:id="@+id/listItem_liveDate"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:text="6月 7日"/>
+
+        <TextView
+            android:id="@+id/listItem_liveDays"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:text="(1日目)"/>
+
+        <TextView
+            android:id="@+id/listItem_livePrefecture"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="東京"/>
+
+        <TextView
+            android:id="@+id/listItem_livePlace"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="中野サンプラザ"/>
+
+    </LinearLayout>
+
+</LinearLayout>

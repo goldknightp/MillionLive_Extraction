@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="アイドル" />
+
+        <ListPreference
+            android:key="@string/string_preferenceListLeftKey"
+            android:title="アイドル選択(左)"
+            android:entries="@array/stringArray_idolList"
+            android:entryValues="@array/stringArray_idolListValue" />
+
+        <ListPreference
+            android:key="@string/string_preferenceListCenterKey"
+            android:title="アイドル選択(センター)"
+            android:entries="@array/stringArray_idolList"
+            android:entryValues="@array/stringArray_idolListValue" />
+
+        <ListPreference
+            android:key="@string/string_preferenceListRightKey"
+            android:title="アイドル選択(右)"
+            android:entries="@array/stringArray_idolList"
+            android:entryValues="@array/stringArray_idolListValue" />
+
+        <ListPreference
+            android:key="@string/string_showIdolOfNumber"
+            android:title="表示人数"
+            android:entries="@array/stringArray_showIdolOfNumberList"
+            android:entryValues="@array/stringArray_showIdolOfNumberValue" />
+
+    <PreferenceCategory
+        android:title="背景" />
+
+        <ListPreference
+            android:key="@string/string_preferenceBGListKey"
+            android:title="背景選択"
+            android:entries="@array/stringArray_backGroundList"
+            android:entryValues="@array/stringArray_backGroundListValue" />
+
+</PreferenceScreen>
